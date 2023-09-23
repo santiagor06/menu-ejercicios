@@ -1,3 +1,4 @@
 
-import { showEvenOdd } from "./funciones/index.js";
+import { showEvenOdd,factorial } from "./funciones/index.js";
 
+factorial();
