@@ -1,4 +1,3 @@
 
-import { showEvenOdd,factorial } from "./funciones/index.js";
-
-factorial();
+import { showEvenOdd,factorial,authPassword } from "./funciones/index.js";
+authPassword()
