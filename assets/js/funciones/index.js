@@ -1,0 +1,1 @@
+export { showEvenOdd } from "./showOddEven.js";
