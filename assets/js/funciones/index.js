@@ -7,3 +7,4 @@ export { primeNumber } from "./primeNumber.js";
 export { fibonacci } from "./fibonacci.js";
 export { temperatureConvert } from "./temperatureConverter.js";
 export { calculatePower } from "./calculatePower.js";
+export { game } from "./game.js";
