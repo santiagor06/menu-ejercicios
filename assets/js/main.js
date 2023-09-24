@@ -1,3 +1,3 @@
 
-import { showEvenOdd,factorial,authPassword,multiplicationTable,guessNumber } from "./funciones/index.js";
-guessNumber()
+import { showEvenOdd,factorial,authPassword,multiplicationTable,guessNumber, primeNumber, fibonacci } from "./funciones/index.js";
+fibonacci()
