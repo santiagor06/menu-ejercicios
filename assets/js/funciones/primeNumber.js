@@ -1,5 +1,4 @@
  export const primeNumber=()=>{
-     alert("Suma de Números Primos: calcule la suma de los primeros N números primos, donde N es ingresado por el usuario.")
      const number=+prompt("Ingrese un numero")
      let total=0;
      if(number==1)return total

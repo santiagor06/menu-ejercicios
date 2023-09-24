@@ -2,11 +2,10 @@ import { randomGenerate } from "./guessNumber.js"
 
 
 export const game = () => {
-    alert("Juega a piedra,papel o tijera contra la computadora")
-    const option = +prompt("Seleccione una opcion:\n1.Piedra\n2.Papel\n3.Tijera")
-    const optionRival = randomGenerate(1, 3);
-    const yourChoice=selectOption(option);
-    const rivalChoice=selectOption(optionRival)
+    const opcion = +prompt("Seleccione una opcion:\n1.Piedra\n2.Papel\n3.Tijera")
+    const opcionRival = randomGenerate(1, 3);
+    const yourChoice=selectOption(opcion);
+    const rivalChoice=selectOption(opcionRival)
     const result=selectWinner(yourChoice,rivalChoice)
     alert(`Tu: ${yourChoice}\nRival: ${rivalChoice}\n${result}`)
 }

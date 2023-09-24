@@ -1,5 +1,4 @@
 export const factorial=()=>{
-    alert("Calculadora de Factorial : calcula el factorial de un número ingresado.")
     const number=+prompt("Ingrese un numero");
     if(number===0){
         alert("El resultado es: 0")

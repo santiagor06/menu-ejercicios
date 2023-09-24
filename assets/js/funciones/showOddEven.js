@@ -1,5 +1,4 @@
 export const showEvenOdd = () => {
-    alert("ingrese un numero y se mostrara la cantidad de números pares e impares,dentro del rango desde 1 hasta ese número.")
     const number = +prompt("Ingrese un numero")
     let odd = 0;
     let even = 0;

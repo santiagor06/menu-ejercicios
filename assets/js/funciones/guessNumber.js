@@ -1,5 +1,4 @@
 export const guessNumber=()=>{
-    alert("Adivinar el Número: Crea un juego en el que el programa genere un número aleatorio entre 1 y 100, y el usuario debe adivinarlo.")
     const randomNumber=randomGenerate(1,100);
     let isPlaying=true;
     let userNumber;

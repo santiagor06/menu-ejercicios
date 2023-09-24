@@ -1,5 +1,4 @@
 export const temperatureConvert = () => {
-    alert("Conversor temperatura : te permite pasar de Celsius a Fahrenheit o de Fahrenheit a Celsius.")
     let opcion = +prompt("Selecciona una opcion:\n1.Fahrenheit -> Celsius\n2.Celsius -> Fahrenheit")
     let temperature = +prompt("Ingrese la temperatura");
     let result;

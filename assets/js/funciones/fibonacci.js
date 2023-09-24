@@ -1,5 +1,4 @@
 export const fibonacci=()=>{
-    alert("Secuencia de Fibonacci: Crea un programa que genere la secuencia de Fibonacci hasta un término dado por el usuario.")
     const number=+prompt("Ingrese un numero")
     if(number<2){
         alert(`El resultado es: ${number}`)
