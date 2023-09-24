@@ -12,17 +12,12 @@ export const game = () => {
 
 
 const selectOption = (opcion) => {
-    switch (opcion) {
-        case 1:
-            return "Piedra"
-        case 2:
-            return "Papel"
-        case 3:
-            return "Tijera"
-        default:
-            alert("Seleccione una opcion valida")
-            break;
+    const choices={
+        1:"Piedra",
+        2:"Papel",
+        3:"Tijera"
     }
+    return choices[opcion]
 }
 const selectWinner=(choiceOne,choiceTwo)=>{
     if(choiceOne===choiceTwo)return "Empate"
