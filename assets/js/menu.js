@@ -24,4 +24,4 @@ export const menuMessage={
     9:"Calculadora de Potencia: ingrese un numero y su potencia, para obtener su resultado",
     10:"Juega a piedra,papel o tijera contra la computadora"
 }
-export const initialMessage="1.Contador números pares e impares\n2.Calculadora de factorial\n3.Validacion contraseña\n4.Generador tablas de multiplicar\n5.Adivinar el Numero\n6.Suma de números primos\n7.Secuencia de Fibonacci\n8.Convertidor de temperatura\n9.Calculadora de potencia\n10.Juego de piedra, papel o tijera\n11.Salir"
+export const initialMessage="Seleccione un ejercicio:\n1.Contador números pares e impares\n2.Calculadora de factorial\n3.Validacion contraseña\n4.Generador tablas de multiplicar\n5.Adivinar el Numero\n6.Suma de números primos\n7.Secuencia de Fibonacci\n8.Convertidor de temperatura\n9.Calculadora de potencia\n10.Juego de piedra, papel o tijera\n11.Salir"

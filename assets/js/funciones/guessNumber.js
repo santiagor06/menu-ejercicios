@@ -7,7 +7,7 @@ export const guessNumber=()=>{
         if(userNumber>randomNumber)alert("Demasiado alto")
         else if(userNumber<randomNumber)alert("Demasiado bajo")
         else {
-            alert("Ganaste,Felicitacione!!")
+            alert("Ganaste,Felicitaciones!!")
             isPlaying=false;
         }
     }
